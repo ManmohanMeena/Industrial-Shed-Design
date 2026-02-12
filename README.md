@@ -53,31 +53,31 @@ The industrial shed was designed based on the following requirements:
 
 ## Finite Element Model
 
-![Finite Element Model](Images/Finite Element Model.png)
+![Finite Element Model](Images/Finite%20Element%20Model.png)
 
 ## 3-D Sectional View
 
-![3-D Sectional View](Images/3-D Sectional View.png)
+![3-D Sectional View](Images/3-D%20Sectional%20View.png)
 
 ## Axial Force Model
 
-![Axial Force Model](Images/Axial Force Model.png)
+![Axial Force Model](Images/Axial%20Force%20Model.png)
 
 ## Shear Force Model in y-z direction
 
-![Shear Force Model in y-z direction](Images/Shear Force Model in y-z direction.png)
+![Shear Force Model in y-z direction](Images/Shear%20Force%20Model%20in%20y-z%20direction.png)
 
 ## Shear Force Model in x-z direction
 
-![Shear Force Model in x-z direction](Images/Shear Force Model in x-z direction.png)
+![Shear Force Model in x-z direction](Images/Shear%20Force%20Model%20in%20x-z%20direction.png)
 
 ## Bending Moment Model in x-z direction
 
-![Bending Moment Model in x-z direction](Images/Bending Moment Model in x-z direction.png)
+![Bending Moment Model in x-z direction](Images/Bending%20Moment%20Model%20in%20x-z%20direction.png)
 
 ## Bending Moment Model in y-z direction
 
-![Bending Moment Model in y-z direction](Images/Bending Moment Model in y-z direction.png)
+![Bending Moment Model in y-z direction](Images/Bending%20Moment%20Model%20in%20y-z%20direction.png)
 
 
 ---
