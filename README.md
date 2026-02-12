@@ -45,7 +45,7 @@ The industrial shed was designed based on the following requirements:
 - Base Plate
 - Bolted Connections
 
-*(Ref: Project report Section 1.0)* :contentReference[oaicite:0]{index=0}
+**(Ref: [Project Report – Section 1.0](report/Industrial%20Shed%20Design.pdf))*
 
 ---
 
@@ -127,7 +127,7 @@ Wind force calculation:
 
 Resultant Wind Load ≈ -99.04 kN
 
-*(Refer report Section 3.0 pages 5–6)* :contentReference[oaicite:2]{index=2}
+**(Ref: [Project Report – Section 5.0 Page: 5-6](report/Industrial%20Shed%20Design.pdf))*
 
 ---
 
@@ -156,7 +156,7 @@ The structure was modelled using finite element analysis in SAP2000.
 - Shear Force (XZ)
 - Bending Moment Diagram
 
-*(See report figures pages 7–12)* :contentReference[oaicite:3]{index=3}
+**(Ref: [See report figures pages 7–12](report/Industrial%20Shed%20Design.pdf))*
 
 ---
 
@@ -260,7 +260,7 @@ Purlins designed to transfer roof loads safely to main trusses.
 
 ![3 Truss Members Connection](Images/Connection%20of%203%20truss%20members.png)
 
-*(Refer report section 6.0)* :contentReference[oaicite:4]{index=4}
+**(Ref: [Project Report – Section 6.0](report/Industrial%20Shed%20Design.pdf))*
 
 ---
 
@@ -271,7 +271,7 @@ Purlins designed to transfer roof loads safely to main trusses.
 - Structure is safe under combined loading conditions.
 - Design demonstrates practical implementation of steel design principles.
 
-*(Refer report Section 7.0)* :contentReference[oaicite:5]{index=5}
+**(Ref: [Project Report – Section 7.0](report/Industrial%20Shed%20Design.pdf))*
 
 ---
 
