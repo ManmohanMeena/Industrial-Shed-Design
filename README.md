@@ -252,11 +252,13 @@ Purlins designed to transfer roof loads safely to main trusses.
 
 ## Beam-Column Connection
 
-![Beam Column Connection](images/beam_column_connection.png)
+![Beam Column Connection](Images/Column-Beam%20Connection.png)
 
 ## Truss Member Connections
 
-![Truss Connection](images/truss_connection.png)
+![4 Truss Members Connection](Images/Connection%20of%204%20truss%20members.png)
+
+![3 Truss Members Connection](Images/Connection%20of%203%20truss%20members.png)
 
 *(Refer report section 6.0)* :contentReference[oaicite:4]{index=4}
 
