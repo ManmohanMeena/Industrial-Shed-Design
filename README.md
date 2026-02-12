@@ -82,7 +82,7 @@ The industrial shed was designed based on the following requirements:
 
 ---
 
-# 📐 Design Standards
+# Design Standards
 
 The design follows Indian Standard codes:
 
@@ -94,7 +94,7 @@ The design follows Indian Standard codes:
 
 ---
 
-# ⚖️ Load Calculations
+# Load Calculations
 
 ## 1. Dead Load
 
@@ -123,11 +123,7 @@ Based on IS 875 Part 3:
 
 Wind force calculation:
 
-```
-
-F = (Cpe - Cpi) × Pd × Area
-
-```
+  F = (Cpe - Cpi) × Pd × Area
 
 Resultant Wind Load ≈ -99.04 kN
 
@@ -135,7 +131,7 @@ Resultant Wind Load ≈ -99.04 kN
 
 ---
 
-# 🔄 Load Combinations
+# Load Combinations
 
 The following combinations were applied:
 
@@ -149,13 +145,9 @@ The following combinations were applied:
 
 ---
 
-# 🧮 Structural Modelling (SAP2000)
+# Structural Modelling (SAP2000)
 
 The structure was modelled using finite element analysis in SAP2000.
-
-## 3D Model
-
-![SAP Model](images/sap_model.png)
 
 ### Analysis Outputs:
 
@@ -168,7 +160,7 @@ The structure was modelled using finite element analysis in SAP2000.
 
 ---
 
-# 🔧 Section Properties
+# Section Properties
 
 Selected structural sections include:
 
@@ -186,7 +178,7 @@ Section selection considered:
 
 ---
 
-# 🏗 Structural Design
+# Structural Design
 
 ## 1. Tension Member Design
 
@@ -256,7 +248,7 @@ Purlins designed to transfer roof loads safely to main trusses.
 
 ---
 
-# 🔗 Connection Design
+# Connection Design
 
 ## Beam-Column Connection
 
@@ -270,7 +262,7 @@ Purlins designed to transfer roof loads safely to main trusses.
 
 ---
 
-# 📊 Results and Conclusions
+# Results and Conclusions
 
 - All structural members satisfy IS code requirements.
 - SAP2000 analysis provided accurate force distribution.
@@ -281,31 +273,3 @@ Purlins designed to transfer roof loads safely to main trusses.
 
 ---
 
-# 📁 Repository Structure
-
-```
-
-project-root/
-│
-├── SAP_Model/
-│   └── industrial_shed.sdb
-│
-├── images/
-│
-├── report/
-│   └── project_report.pdf
-│
-└── README.md
-
-```
-
----
-
-# ▶️ How to Use the SAP Model
-
-1. Open SAP2000.
-2. Load the provided `.sdb` file.
-3. Run analysis.
-4. View load combinations and diagrams.
-
----
