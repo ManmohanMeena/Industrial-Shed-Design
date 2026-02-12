@@ -7,7 +7,7 @@
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 This project focuses on the structural design and analysis of an industrial steel shed located in Ahmedabad. The design integrates theoretical steel design concepts with practical structural modelling using SAP2000.
 
@@ -23,7 +23,7 @@ The project includes:
 
 ---
 
-# 🏗 Problem Statement
+# Problem Statement
 
 The industrial shed was designed based on the following requirements:
 
@@ -49,17 +49,36 @@ The industrial shed was designed based on the following requirements:
 
 ---
 
-# 🧱 Geometry and Layout
+# Geometry and Layout
 
-## Front Elevation
+## Finite Element Model
 
-![Front Elevation](images/front_elevation.png)
+![Finite Element Model](Images/Finite Element Model.png)
 
-## Side Elevation
+## 3-D Sectional View
 
-![Side Elevation](images/side_elevation.png)
+![3-D Sectional View](Images/3-D Sectional View.png)
 
-*(Refer report figures on page 3)* :contentReference[oaicite:1]{index=1}
+## Axial Force Model
+
+![Axial Force Model](Images/Axial Force Model.png)
+
+## Shear Force Model in y-z direction
+
+![Shear Force Model in y-z direction](Images/Shear Force Model in y-z direction.png)
+
+## Shear Force Model in x-z direction
+
+![Shear Force Model in x-z direction](Images/Shear Force Model in x-z direction.png)
+
+## Bending Moment Model in x-z direction
+
+![Bending Moment Model in x-z direction](Images/Bending Moment Model in x-z direction.png)
+
+## Bending Moment Model in y-z direction
+
+![Bending Moment Model in y-z direction](Images/Bending Moment Model in y-z direction.png)
+
 
 ---
 
