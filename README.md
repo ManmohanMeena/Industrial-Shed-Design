@@ -1,1 +1,292 @@
-# Industrial-Shed-Design
+
+# Industrial Steel Shed Design using SAP2000
+
+
+**Instructor:** Prof. Dhiman Basu  
+
+
+---
+
+# 📌 Project Overview
+
+This project focuses on the structural design and analysis of an industrial steel shed located in Ahmedabad. The design integrates theoretical steel design concepts with practical structural modelling using SAP2000.
+
+The objective was to develop a safe, economical, and code-compliant industrial shed considering multiple loading conditions and structural requirements.
+
+The project includes:
+
+- Structural modelling
+- Load calculation
+- Member design
+- Connection design
+- Finite Element Analysis using SAP2000
+
+---
+
+# 🏗 Problem Statement
+
+The industrial shed was designed based on the following requirements:
+
+## Site Requirements
+
+- Plot Area: **2000 m²**
+- Aspect Ratio (L/W): **2.0**
+- Column Height: **2.5 m**
+- Truss Height: **3 m**
+- Road alignment along longer dimension.
+
+## Structural Components
+
+- Tension Members
+- Compression Members
+- Beams
+- Columns
+- Purlins
+- Base Plate
+- Bolted Connections
+
+*(Ref: Project report Section 1.0)* :contentReference[oaicite:0]{index=0}
+
+---
+
+# 🧱 Geometry and Layout
+
+## Front Elevation
+
+![Front Elevation](images/front_elevation.png)
+
+## Side Elevation
+
+![Side Elevation](images/side_elevation.png)
+
+*(Refer report figures on page 3)* :contentReference[oaicite:1]{index=1}
+
+---
+
+# 📐 Design Standards
+
+The design follows Indian Standard codes:
+
+- IS 800 – Steel Design Code
+- IS 875 Part 1 – Dead Loads
+- IS 875 Part 2 – Live Loads
+- IS 875 Part 3 – Wind Loads
+- IS 808 – Steel Sections
+
+---
+
+# ⚖️ Load Calculations
+
+## 1. Dead Load
+
+- Roof sheeting weight = 0.15 kN/m²
+- Total Dead Load = 15.52 kN
+
+Dead loads include self-weight and permanent structural components.
+
+---
+
+## 2. Live Load
+
+- Roof slope angle ≈ 14.9°
+- Live Load = 0.651 kN/m²
+- Total Live Load ≈ 67.36 kN
+
+---
+
+## 3. Wind Load
+
+Based on IS 875 Part 3:
+
+- Basic wind speed = 39 m/s
+- Design wind speed = 41.22 m/s
+- Design wind pressure ≈ 734 N/m²
+
+Wind force calculation:
+
+```
+
+F = (Cpe - Cpi) × Pd × Area
+
+```
+
+Resultant Wind Load ≈ -99.04 kN
+
+*(Refer report Section 3.0 pages 5–6)* :contentReference[oaicite:2]{index=2}
+
+---
+
+# 🔄 Load Combinations
+
+The following combinations were applied:
+
+1. 1.5 DL + 1.5 LL  
+2. 1.5 DL + 1.5 WL  
+3. 1.5 DL - 1.5 WL  
+4. 1.2 DL + 1.5 LL + 1.2 WL  
+5. 1.2 DL + 1.5 LL - 1.2 WL  
+6. 0.9 DL + 0.9 WL  
+7. 0.9 DL - 0.9 WL  
+
+---
+
+# 🧮 Structural Modelling (SAP2000)
+
+The structure was modelled using finite element analysis in SAP2000.
+
+## 3D Model
+
+![SAP Model](images/sap_model.png)
+
+### Analysis Outputs:
+
+- Axial Force Diagram
+- Shear Force (YZ)
+- Shear Force (XZ)
+- Bending Moment Diagram
+
+*(See report figures pages 7–12)* :contentReference[oaicite:3]{index=3}
+
+---
+
+# 🔧 Section Properties
+
+Selected structural sections include:
+
+- ISMB 450
+- ISLB 350
+- ISMB 400
+- Angle 200×200×25
+- ISLB 75
+
+Section selection considered:
+
+- Strength
+- Stability
+- Economic efficiency
+
+---
+
+# 🏗 Structural Design
+
+## 1. Tension Member Design
+
+Steps followed:
+
+- Calculate required gross area
+- Bolt design check
+- Shear capacity check
+- Block shear check
+- Rupture and yielding verification
+
+Final selected section: Angle 200×200×25.
+
+---
+
+## 2. Compression Member Design
+
+Design involved:
+
+- Slenderness ratio calculation
+- Buckling classification
+- Design compressive strength
+- Capacity verification
+
+Section verified safe under design load.
+
+---
+
+## 3. Beam Design
+
+Checks performed:
+
+- Section classification
+- Shear strength
+- Flexural strength
+- Lateral support considerations
+
+Beam satisfies design requirements.
+
+---
+
+## 4. Column Design
+
+Parameters considered:
+
+- Axial load + bending moment
+- Effective length
+- Buckling resistance
+
+Final section selected based on IS800 criteria.
+
+---
+
+## 5. Base Plate Design
+
+Includes:
+
+- Bearing pressure check
+- Plate thickness calculation
+- Anchor bolt consideration
+
+---
+
+## 6. Purlin Design
+
+Purlins designed to transfer roof loads safely to main trusses.
+
+---
+
+# 🔗 Connection Design
+
+## Beam-Column Connection
+
+![Beam Column Connection](images/beam_column_connection.png)
+
+## Truss Member Connections
+
+![Truss Connection](images/truss_connection.png)
+
+*(Refer report section 6.0)* :contentReference[oaicite:4]{index=4}
+
+---
+
+# 📊 Results and Conclusions
+
+- All structural members satisfy IS code requirements.
+- SAP2000 analysis provided accurate force distribution.
+- Structure is safe under combined loading conditions.
+- Design demonstrates practical implementation of steel design principles.
+
+*(Refer report Section 7.0)* :contentReference[oaicite:5]{index=5}
+
+---
+
+# 📁 Repository Structure
+
+```
+
+project-root/
+│
+├── SAP_Model/
+│   └── industrial_shed.sdb
+│
+├── images/
+│
+├── report/
+│   └── project_report.pdf
+│
+└── README.md
+
+```
+
+---
+
+# ▶️ How to Use the SAP Model
+
+1. Open SAP2000.
+2. Load the provided `.sdb` file.
+3. Run analysis.
+4. View load combinations and diagrams.
+
+---
